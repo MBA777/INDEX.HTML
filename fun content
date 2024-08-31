@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Name</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Fun & Life Lessons</h1>
+        <p>Your go-to place for fun content and life advice!</p>
+    </header>
+
+    <nav>
+        <a href="#fun-content">Fun Content</a>
+        <a href="#life-lessons">Life Lessons</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="fun-content">
+            <h2>Fun Content</h2>
+            <!-- Embed your video here -->
+            <video width="640" height="360" controls>
+                <source src="videos/your-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <!-- Other sections of your website -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Fun & Life Lessons. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
